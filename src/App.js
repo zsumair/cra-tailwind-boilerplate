@@ -1,26 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+    <div className="bg-gray-100">
+      <h1 className="mt-6 text-2xl font-bold text-gray-900 leading-tight">
+        You can work from anywhere.
+        <span className="text-indigo-500">Take Advantage of it</span>
+      </h1>
+      <p className="mt-2 text-gray-600">
+        Lorem ipsum dolor simet Lorem ipsum dolor simet Lorem ipsum dolor simet
+        Lorem ipsum dolor simet Lorem ipsum dolor simet.
+      </p>
+      <div className="mt-4">
         <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="#"
+          className="inline-block px-5 py-3 rounded-lg shadow-lg bg-indigo-500 text-sm text-white uppercase tracking-wider font-semibold"
         >
-          Learn React
+          Book Your Escape
         </a>
-      </header>
+      </div>
     </div>
   );
-}
+};
 
 export default App;
